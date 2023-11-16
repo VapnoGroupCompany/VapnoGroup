@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className={styles.section4}>
             <div className={styles.ourFavorsContainer}>
-            <Image className={styles.favorImg} width={500} height={380} src="/blackman.jpg" alt="blackman"/>
+            <Image className={styles.favorImg} width={500} height={380} src="/blackman.webp" alt="blackman"/>
                <div className={styles.txt}>
                 <h2 className={styles.favorTitle}>Wir bieten eine breite Palette von Baudienstleistungen an, darunter:</h2>
               

@@ -6,9 +6,9 @@ import Image from 'next/image';
 function SecondSlider() {
      // --------------------------------------------
      const slides2= [
-        {src:"/people2.jpg" ,    p :"Das Ergebnis hat unsere Erwartungen übertroffen. Die neuen Räumlichkeiten sehen beeindruckend aus und die Qualität der Arbeiten hat uns und unsere Gäste beeindruckt. Schlüsselfertiges Haus weiß wirklich, wie man seinen Job macht!" ,   name:"Sabine"},
-        {src:"/peple1.jpg",  p :"Schlüsselfertiges Haus hat Planung und Ausführung auf ein neues Niveau gehoben. Die Arbeiten wurden termingerecht und unter Einhaltung höchster Qualitätsstandards ausgeführt. Jeder Arbeitsschritt wurde mit Liebe zum Detail ausgeführt." ,   name:"Gabriel"},
-        {src:"/people3.jpg" , p :"Vielen Dank für Ihren großartigen Beitrag zu unserem Projekt und für die Schaffung eines magischen Raums. Wir empfehlen Sie gerne jedem weiter, der einen zuverlässigen und professionellen Partner im Bauwesen sucht." ,   name:"Irma"},
+        {src:"/people2.webp" ,    p :"Das Ergebnis hat unsere Erwartungen übertroffen. Die neuen Räumlichkeiten sehen beeindruckend aus und die Qualität der Arbeiten hat uns und unsere Gäste beeindruckt. Schlüsselfertiges Haus weiß wirklich, wie man seinen Job macht!" ,   name:"Sabine"},
+        {src:"/peple1.webp",  p :"Schlüsselfertiges Haus hat Planung und Ausführung auf ein neues Niveau gehoben. Die Arbeiten wurden termingerecht und unter Einhaltung höchster Qualitätsstandards ausgeführt. Jeder Arbeitsschritt wurde mit Liebe zum Detail ausgeführt." ,   name:"Gabriel"},
+        {src:"/people3.webp" , p :"Vielen Dank für Ihren großartigen Beitrag zu unserem Projekt und für die Schaffung eines magischen Raums. Wir empfehlen Sie gerne jedem weiter, der einen zuverlässigen und professionellen Partner im Bauwesen sucht." ,   name:"Irma"},
     ];
       const [currentIndex2,setСurrentIndex2]= React.useState(0);
 
