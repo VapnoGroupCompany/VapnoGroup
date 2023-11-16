@@ -67,6 +67,17 @@ export default function Home() {
                
             </div>
             </div>
+            <div className={styles.section6}>
+            <div className={styles.projectContainer}>
+              </div>
+              <div className={styles.projectContent}>
+                <p>Wir führen Bauarbeiten jeder Komplexität durch, von der Wohnungsrenovierung bis zum Hüttenbau. Wir arbeiten mit hochwertigen Materialien und nutzen moderne Bautechnologien.</p>
+                <p>Der beste Weg, sich von unserer Professionalität zu überzeugen, ist, auf die Schaltfläche unten zu klicken</p>
+                <Link href="/projects"> <button>Detaillierte</button></Link>
+                
+              </div>
+
+            </div>
             <div className={styles.section2}>
                 <div className={styles.ourServicesContainer}>
                     <h2 className={styles.ourTitle}>
@@ -126,17 +137,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={styles.section6}>
-            <div className={styles.projectContainer}>
-              </div>
-              <div className={styles.projectContent}>
-                <p>Wir führen Bauarbeiten jeder Komplexität durch, von der Wohnungsrenovierung bis zum Hüttenbau. Wir arbeiten mit hochwertigen Materialien und nutzen moderne Bautechnologien.</p>
-                <p>Der beste Weg, sich von unserer Professionalität zu überzeugen, ist, auf die Schaltfläche unten zu klicken</p>
-                <Link href="/projects"> <button>Detaillierte</button></Link>
-                
-              </div>
-
-            </div>
+           
             <div className={styles.section5}>
             <SecondSlider/>
             </div>

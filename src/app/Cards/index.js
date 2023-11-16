@@ -7,7 +7,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront1}>
-          <p></p>
+          <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack1}>
           <div className={styles.text}>
@@ -35,7 +35,7 @@ function Cards() {
      <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront3}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack3}>
           <div className={styles.text}>
@@ -49,7 +49,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront5}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack5}>
           <div className={styles.text}>
@@ -64,7 +64,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront6}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack6}>
           <div className={styles.text}>
@@ -78,7 +78,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront7}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack7}>
           <div className={styles.text}>
@@ -93,7 +93,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront8}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack8}>
           <div className={styles.text}>
@@ -108,7 +108,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront9}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack9}>
           <div className={styles.text}>
@@ -124,7 +124,7 @@ function Cards() {
     <div className={styles.card}>
       <div className={styles.cardInner}>
         <div className={styles.cardFront4}>
-          <p></p>
+        <p className={styles.clickme}>click me</p>
         </div>
         <div className={styles.cardBack4}>
           <div className={styles.text}>

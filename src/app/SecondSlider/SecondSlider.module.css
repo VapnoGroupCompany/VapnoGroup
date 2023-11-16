@@ -36,6 +36,8 @@
     margin: 0;
   }
   .slideItem p {
+    max-width: 600px;
+    height: 130px;
     font-size: 1.3em;
     color: #838383;
   }
@@ -43,8 +45,16 @@
     text-align: center;
     font-size: 1.8em;
     color: rgb(208, 208, 208);
+
+  }
+  @media(max-width:600px){
+   
+    .slideItem p {
+      height: 170px;
+    }
   }
   @media(max-width:500px){
+   
     .slideItem p {
       font-size: 1.1em;
     }
@@ -52,5 +62,11 @@
       text-align: center;
       font-size: 1.5em;
       color: rgb(208, 208, 208);
+    }
+  }
+  @media(max-width:400px){
+   
+    .slideItem p {
+      height: 200px;
     }
   }
