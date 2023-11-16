@@ -95,6 +95,7 @@
    padding-bottom: 1.5em;
 }
 .ourTitle{
+  color: white;
   text-align: center;
   margin: 0 auto;
   padding-top: 2em;
@@ -133,6 +134,7 @@
   }
 }
 .service h4 {
+  color: white;
   font-size: 2em;
 }
 .service p {
@@ -203,11 +205,13 @@
   flex-direction: column;
 }
 .favorTitle{
+  color: white;
   text-align: left;
   font-size: 2em;
   padding-bottom: 1em;
 }
 .favor{
+  color: white;
   font-size: 1.4em;
 }
 .favorImg{
@@ -263,6 +267,7 @@
   height: 100vh;
   padding-left: 1em;
   padding-right: 1em;
+  background-color:  rgb(0, 0, 0);
 }
 @media(max-width:1000px){
   .section5{
