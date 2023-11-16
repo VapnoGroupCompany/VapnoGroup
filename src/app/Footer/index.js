@@ -19,10 +19,10 @@ function Footer() {
    <a  href="https://t.me/+380968336006" target="_blank" className={styles.fd}>© 2023 Simplifier of business processes.</a>
    <a  className={styles.fd} href="tel:+49 1517 2640531">+49-1517-2640531</a>
            <div className={styles.threeBlock}>
-             <a href='https://www.instagram.com/eternally__healthy_/' target="_blank"><Image className={styles.icon}  width={30} height={30} src="/instagram.png" alt="instagram" /></a>
+             <a href='' target="_blank"><Image className={styles.icon}  width={30} height={30} src="/instagram.png" alt="instagram" /></a>
              {/* <a href='https://www.facebook.com/profile.php?id=100088519397111' target="_blank"><Image className={styles.icon} width={30} height={30} src="/facebook.png" alt="facebook" /></a> */}
-             <a href="viber://chat?number=+380968336006"><Image className={styles.icon} width={30} height={30} src="/viber.png" alt="viber" /></a>
-             <a  href="https://t.me/+380968336006" target="_blank" ><Image className={styles.icon} width={35} height={35} src="/telegram.png" alt="telegram" /></a>
+             <a href=""><Image className={styles.icon} width={30} height={30} src="/viber.png" alt="viber" /></a>
+             <a  href="" target="_blank" ><Image className={styles.icon} width={35} height={35} src="/telegram.png" alt="telegram" /></a>
            </div>
     </footer>
     </>
