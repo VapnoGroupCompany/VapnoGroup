@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Black+Ops+One&display=swap');
+/* .logo{
+    font-family: Black Ops  One;
+    font-size: 2rem;
+  } */
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/about.webp");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    padding-top: 2em;
+}
+.content{
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 1300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5em;
+
+}
+.leftContent{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.788);
+    font-family: Black Ops  One;
+    font-size: 3em;
+}
+.rigthContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+    
+}
+.rigthContent p {
+    background-color: rgba(0, 0, 0, 0.845);
+    font-size: 1.1em;
+}
+@media(max-width:1200px){
+    .wrapper{
+        height: 100%;
+    }
+    .content{
+       flex-direction: column;
+        width: 100%;
+        margin-top: 3em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+        gap: 3em;
+    }
+    .leftContent{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.788);
+        font-family: Black Ops  One;
+        font-size: 3em;
+    }
+  }
+  @media(max-width:520px){
+   
+    .leftContent{
+        font-size: 2.5em;
+    }
+    .rigthContent p {
+        font-size: 1em;
+    }
+    
+  }
+  @media(max-width:435px){
+   
+    .leftContent{
+        font-size: 2em;
+    }
+    .rigthContent p {
+        font-size: 1em;
+    }
+    
+  }
