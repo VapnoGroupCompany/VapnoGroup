@@ -21,13 +21,13 @@ export default function Header() {
     return (
        <>
             <header className={styles.header}>
-            <Link href="/"><p className={styles.logo}>SH</p></Link>
+            <Link className={styles.link} href="/"><p className={styles.logo}>SH</p></Link>
                 <div className={open ? styles.menu : styles.menu + " " + styles.active }>
                 <ul onClick={() => openHandler()}  className={styles.menuList}>
-                    <Link href="/"><li onClick={() => setActive(0)} className={ (active === 0) ? styles.menuActive  : styles.menuItem }>Startseite</li></Link>
-                    <Link href="/projects">  <li onClick={() => setActive(1)}  className={ (active === 1) ? styles.menuActive  : styles.menuItem }>Projekte</li></Link>
-                    <Link href="/about"> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>Über uns</li></Link>
-                    <Link href="/contact"><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>Kontakt</li></Link>
+                    <Link  className={styles.link}  href="/"><li onClick={() => setActive(0)} className={ (active === 0) ? styles.menuActive  : styles.menuItem }>Startseite</li></Link>
+                    <Link  className={styles.link}  href="/projects">  <li onClick={() => setActive(1)}  className={ (active === 1) ? styles.menuActive  : styles.menuItem }>Projekte</li></Link>
+                    <Link  className={styles.link}  href="/about"> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>Über uns</li></Link>
+                    <Link  className={styles.link} href="/contact"><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>Kontakt</li></Link>
                 </ul>
                 </div>
       <div onClick={() => openHandler()}  className={ open ? styles.burger :  styles.burger + " " + styles.active}>

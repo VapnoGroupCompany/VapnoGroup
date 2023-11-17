@@ -39,7 +39,7 @@ export default function Home() {
                         Schlusselfertiges <br></br>Haus
                     </h2>
                     <p className={styles.subTitle}>wir bauen ihre zukunft</p>
-                    <Link href="/contact"><button className={styles.button}>Detaillierte</button></Link> 
+                    <Link className={styles.link} href="/contact"><button className={styles.button}>Detaillierte</button></Link> 
                 </div>
             </div>
             <div className={styles.section3}>
@@ -48,7 +48,7 @@ export default function Home() {
             <h2 className={styles.mainText}>
             Bauen ist ein komplexer und verantwortungsvoller Prozess, der Fachwissen und Erfahrung erfordert. Unser Unternehmen verfügt über langjährige Erfahrung im Baubereich und ist bereit, alle Bauarbeiten auszuführen, von der Reparatur einer Wohnung bis zum Bau eines Ferienhauses.
                     </h2>
-                    <Link href="/about"><button className={styles.buttonBlack}>Detaillierte</button></Link> 
+                    <Link className={styles.link} href="/about"><button className={styles.buttonBlack}>Detaillierte</button></Link> 
                     </div>
             </div>
             <div className={styles.section4}>
@@ -73,7 +73,7 @@ export default function Home() {
               <div className={styles.projectContent}>
                 <p>Wir führen Bauarbeiten jeder Komplexität durch, von der Wohnungsrenovierung bis zum Hüttenbau. Wir arbeiten mit hochwertigen Materialien und nutzen moderne Bautechnologien.</p>
                 <p>Der beste Weg, sich von unserer Professionalität zu überzeugen, ist, auf die Schaltfläche unten zu klicken</p>
-                <Link href="/projects"> <button>Detaillierte</button></Link>
+                <Link className={styles.link} href="/projects"> <button>Detaillierte</button></Link>
                 
               </div>
 

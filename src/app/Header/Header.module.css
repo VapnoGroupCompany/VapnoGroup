@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Black+Ops+One&display=swap');
 .logo{
+    outline: none;
+    box-shadow: none;
     font-family: Black Ops  One;
     font-size: 2rem;
     color: white;
+  }
+  .link{
+    outline: none;
+    box-shadow: none;
   }
   .header{
     z-index: 2;
@@ -24,6 +30,8 @@
     align-items: center;
   }
   .menuItem{
+    outline: none;
+    box-shadow: none;
     text-align: center;
     list-style: none;
     font-size: 1.1rem;
@@ -41,6 +49,8 @@
     transition: border-color 0.3s ease-in-out;
   }
   .menuActive{
+    outline: none;
+    box-shadow: none;
     text-align: center;
     list-style: none;
     font-size: 1.1rem;
@@ -54,6 +64,8 @@
     
   }
   .menuItem:hover {
+    outline: none;
+    box-shadow: none;
   border-color: white;
 }
   .burger{
@@ -66,12 +78,16 @@
     z-index: 50;
   }
   .burger span {
+    outline: none;
+    box-shadow: none;
     height: 2px;
     width: 100%;
     transform: scale(1);
     background-color: #ffffff;
   }
   .burger:before, .burger:after{
+    outline: none;
+    box-shadow: none;
     content: "";
     position: absolute;
     height: 2px;
@@ -80,19 +96,29 @@
     transition: all 0.3s ease 0s; 
   }
   .burger:before{
+    outline: none;
+    box-shadow: none;
     top: 0;
   }
   .burger:after{
+    outline: none;
+    box-shadow: none;
     bottom: 0;
   }
   .burger.active span {
+    outline: none;
+    box-shadow: none;
     transform: scale(0);
   }
    .burger.active:before {
+    outline: none;
+    box-shadow: none;
     top: 50%;
     transform: rotate(-45deg) translate(0,-50%);
    }
    .burger.active:after {
+    outline: none;
+    box-shadow: none;
     bottom: 50%;
     transform: rotate(45deg) translate(0,50%);
    }

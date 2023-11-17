@@ -21,7 +21,6 @@
   height: 100%;
   z-index: -1;
 }
-
 .slogan{
   position: absolute;
   left: 50%;
@@ -50,6 +49,8 @@
   color: rgb(195, 195, 195);
 }
 .button{
+  outline: none;
+  box-shadow: none;
   cursor: pointer;
   font-size: 16px;
   padding: 20px 30px 20px 30px;;
@@ -71,6 +72,8 @@
   }
 }
 .button:hover{
+  outline: none;
+  box-shadow: none;
   background-color: white;
   color: black;
   border: 1px rgb(0, 0, 0) solid;
@@ -165,6 +168,8 @@
   font-size: 1.8em;
 }
 .buttonBlack{
+  outline: none;
+  box-shadow: none;
   margin-top: 3em;
   cursor: pointer;
   font-size: 16px;
@@ -175,6 +180,8 @@
   background-color: transparent;
 }
 .buttonBlack:hover{
+  outline: none;
+  box-shadow: none;
   background-color: black;
   color: white;
 }
@@ -360,8 +367,16 @@
   border: 1px rgb(0, 0, 0) solid;
   color: rgb(0, 0, 0);
   background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.link{
+  outline: none;
+  box-shadow: none;
 }
 .projectContent button:hover{
+  outline: none;
+  box-shadow: none;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
