@@ -55,8 +55,8 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                 {loading ? (
                     <div className={styles.loaderContainer}>
                         <Image
-                            width={250}
-                            height={250}
+                            width={200}
+                            height={200}
                             src="/loading.gif"
                             alt="dmdedjm"
                         />
