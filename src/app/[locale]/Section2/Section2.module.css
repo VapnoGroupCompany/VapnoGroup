@@ -1,0 +1,97 @@
+.section6{
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width:100%;
+}
+.projectContainer{
+  /* background-image: url("/pr2.webp"); */
+  background-color: rgb(255, 255, 255);
+  /* filter:  brightness(20%); */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.projectContent{
+  flex-direction:column ;
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 1300px;
+}
+.projectContent h2{
+  font-size: 2em;
+}
+.projectContent p{
+  text-align: left;
+  font-size: 2em;
+}
+@media(max-width:1300px){
+  .projectContent{
+    width: 1000px;
+  }
+}
+@media(max-width:1000px){
+  .projectContent{
+    width: 700px;
+  }
+}
+@media(max-width:700px){
+  .projectContent{
+    width: 480px;
+  }
+  .projectContent p{
+    font-size: 1.5em;
+  }
+}
+@media(max-width:500px){
+  .projectContent{
+    width: 380px;
+  }
+}
+@media(max-width:400px){
+  .projectContent{
+    width: 320px;
+  }
+  .projectContent p{
+    font-size: 1.3em;
+  }
+}
+
+.projectContent button{
+  margin-top: 3em;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 50px 20px 50px;;
+  border-radius: 50px;
+  border: 1px rgb(0, 0, 0) solid;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.link{
+  outline: none;
+  box-shadow: none;
+}
+.projectContent button:hover{
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}

@@ -3,12 +3,12 @@ import styles from './SecondSlider.module.css';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 // import { Helmet } from 'react-helmet';
-function SecondSlider() {
+function SecondSlider({s5main,s5text1,s5text2,s5text3,s5name1,s5name2,s5name3}) {
      // --------------------------------------------
      const slides2= [
-        {src:"/people2.webp" ,    p :"Das Ergebnis hat unsere Erwartungen übertroffen. Die neuen Räumlichkeiten sehen beeindruckend aus und die Qualität der Arbeiten hat uns und unsere Gäste beeindruckt. Schlüsselfertiges Haus weiß wirklich, wie man seinen Job macht!" ,   name:"Sabine"},
-        {src:"/peple1.webp",  p :"Schlüsselfertiges Haus hat Planung und Ausführung auf ein neues Niveau gehoben. Die Arbeiten wurden termingerecht und unter Einhaltung höchster Qualitätsstandards ausgeführt. Jeder Arbeitsschritt wurde mit Liebe zum Detail ausgeführt." ,   name:"Gabriel"},
-        {src:"/people3.webp" , p :"Vielen Dank für Ihren großartigen Beitrag zu unserem Projekt und für die Schaffung eines magischen Raums. Wir empfehlen Sie gerne jedem weiter, der einen zuverlässigen und professionellen Partner im Bauwesen sucht." ,   name:"Irma"},
+        {src:"/people2.webp" ,    p :s5text1 ,   name:s5name1},
+        {src:"/peple1.webp",  p :s5text2 ,   name:s5name2},
+        {src:"/people3.webp" , p :s5text3,   name:s5name3},
     ];
       const [currentIndex2,setСurrentIndex2]= React.useState(0);
 
@@ -39,7 +39,7 @@ function SecondSlider() {
       
   return (
     <>
-              <h2 className={styles.titleSlider}> Was sagen andere über uns?</h2>
+              <h2 className={styles.titleSlider}> {s5main}</h2>
                     <div  className={styles.slideStyles2} >
                     <div  className={styles.slideItem} >
                        <Image  height={150} width={150} src={slides2[currentIndex2].src} alt="peple"/> 

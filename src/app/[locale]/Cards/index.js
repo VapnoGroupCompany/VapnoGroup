@@ -1,6 +1,23 @@
 "use client"
 import styles from './Cards.module.css';
-function Cards() {
+function Cards({
+                     prtitle1,
+                     prtitle2,
+                     prtitle3,
+                     prtitle4,
+                     prtitle5,
+                     prtitle6,
+                     prtitle7,
+                     prtitle8,
+                     prtext1,
+                     prtext2,
+                     prtext3,
+                     prtext4,
+                     prtext5,
+                     prtext6,
+                     prtext7,
+                     prtext8
+}) {
   return (
     <>
      <div className={styles.cards}>
@@ -11,8 +28,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack1}>
           <div className={styles.text}>
-          <h2>Außenseite des Hauses</h2>
-          <p>Wir schaffen wunderschöne Fassaden und integrieren dabei exquisites Design und hohe Qualität. Wir verwandeln die umliegende Landschaft in eine magische Umgebung, in der Natur und Architektur harmonisch miteinander verbunden sind. Wir errichten Gebäude vom Fundament und sorgen für Zuverlässigkeit und Stabilität der Bauwerke.</p>
+          <h2>{prtitle1}</h2>
+          <p>{prtext1}</p>
           </div>
         </div>
       </div>
@@ -39,8 +56,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack3}>
           <div className={styles.text}>
-          <h2>Schlafzimmer</h2>
-          <p>Wir führen umfassende Reparaturen von Schlafzimmern durch und bieten eine breite Palette von Dienstleistungen an. Unser Spezialistenteam führt Bodenaustausch, Wandanstrich, Installation neuer Veredelungsmaterialien sowie Beleuchtungsinstallation und -wartung durch.</p>
+          <h2>{prtitle2}</h2>
+          <p>{prtext2}</p>
           </div>
         </div>
       </div>
@@ -53,8 +70,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack5}>
           <div className={styles.text}>
-          <h2>Küche</h2>
-          <p>Wir renovieren Küchen und schaffen stilvolle und funktionale Räume. Unser Team sorgt für die Installation neuer Geräte, die Optimierung des Arbeitsraums und den Einsatz ergonomischer Lösungen.</p>
+          <h2>{prtitle3}</h2>
+          <p>{prtext3}</p>
           </div>
         </div>
       </div>
@@ -68,8 +85,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack6}>
           <div className={styles.text}>
-          <h2>Badezimmer</h2>
-          <p>Wir sind auf Badezimmerrenovierungen spezialisiert und bieten Dienstleistungen von kosmetischen Renovierungen bis hin zu kompletten Umbauten an. Wir verwenden moderne Materialien und technische Lösungen, um einen komfortablen und ästhetischen Raum zu schaffen.</p>
+          <h2>{prtitle4}</h2>
+          <p>{prtext4}</p>
           </div>
         </div>
       </div>
@@ -82,8 +99,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack7}>
           <div className={styles.text}>
-          <h2>Toilette</h2>
-          <p>Unser Team führt Reparaturen von Toilettenanlagen durch und gewährleistet dabei hohe Qualität und eine individuelle Betreuung jedes Kunden. Wir installieren neue Sanitäranlagen, Farben und Fliesen und schaffen so einen komfortablen und stilvollen Raum.</p>
+          <h2>{prtitle5}</h2>
+          <p>{prtext5}</p>
           </div>
         </div>
       </div>
@@ -97,8 +114,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack8}>
           <div className={styles.text}>
-          <h2>Treppen</h2>
-          <p>Wir schaffen einzigartige und komfortable Treppen und achten dabei auf Ästhetik und Sicherheit.</p>
+          <h2>{prtitle6}</h2>
+          <p>{prtext6}</p>
           </div>
         </div>
       </div>
@@ -112,8 +129,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack9}>
           <div className={styles.text}>
-          <h2>Wohnzimmer</h2>
-          <p>Sorgfältige Endbearbeitung und Nivellierung der Wände, einschließlich Spachteln und Entfernen der alten Beschichtung, Einbau neuer Fenster, die nicht nur für eine wirksame Wärme- und Schalldämmung sorgen, sondern auch den Stil des Raumes betonen.</p>
+          <h2>{prtitle7}</h2>
+          <p>{prtext7}</p>
           </div>
         </div>
       </div>
@@ -128,9 +145,8 @@ function Cards() {
         </div>
         <div className={styles.cardBack4}>
           <div className={styles.text}>
-          <h2>Solarplatten</h2>
-          <p>Professionelle Installation von Solarmodulen auf dem Dach oder anderen geeigneten Orten.
-            Gewährleistung einer sicheren Montage und korrekten Ausrichtung zur Maximierung der Sonnenenergiegewinnung.</p>
+          <h2>{prtitle8}</h2>
+          <p>{prtext8}</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,52 @@
+.section3{
+  padding-top: 10em;
+  padding-bottom: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+.ourServicesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   max-width: 1300px;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
+   padding-bottom: 1.5em;
+   gap: 1em;
+}
+.h1{
+  text-align: center;
+  color: black;
+  padding-bottom: 1em;
+  font-size: 3em;
+  margin: 0 auto;
+}
+.mainText{
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(76, 76, 76);
+  font-size: 1.8em;
+}
+.buttonBlack{
+  outline: none;
+  box-shadow: none;
+  margin-top: 3em ;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 50px 20px 50px;;
+  border-radius: 50px;
+  border: 1px rgb(0, 0, 0) solid;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+.buttonBlack:hover{
+  outline: none;
+  box-shadow: none;
+  background-color: black;
+  color: white;
+}

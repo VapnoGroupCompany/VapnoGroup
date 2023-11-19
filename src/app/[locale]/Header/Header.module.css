@@ -6,6 +6,14 @@
     font-size: 2rem;
     color: white;
   }
+  .lang{
+    cursor: pointer;
+    color: rgb(0, 170, 255);
+  }
+  .lang:hover{
+    cursor: pointer;
+    color: red;
+  }
   .link{
     outline: none;
     box-shadow: none;
@@ -24,7 +32,7 @@
     border-bottom: 1px solid rgb(92, 92, 92);
   }
   .menuList{
-    width: 500px;
+    width: 550px;
     justify-content: space-between;
     display: flex;
     align-items: center;
