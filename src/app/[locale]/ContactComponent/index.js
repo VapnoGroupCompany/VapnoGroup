@@ -4,8 +4,11 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import styles from "./ConactComponent.module.css";
 import Image from "next/image";
-function ContactComponent({contacTitle,contacttext1,contacttext2,
-    contacttext3,require,submit,name,email,phone,letter,error}) {
+function ContactComponent({contacTitle,contacttext1
+ ,error,submit,name,email,phone,region,region1,region2,region3,region4,region5,region6,
+    region7,region8,region9,region10,region11,region12,region13,region14,region15,region16,region17,region18,
+    region19,region20,region21,region22,region23,region24,region25,
+}) {
     const {
         register,
         handleSubmit,
@@ -63,7 +66,7 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                     </div>
                 ) : (
                     <div className={styles.content}>
-                        <div className={styles.greyBlock}>
+                        {/* <div className={styles.greyBlock}>
                             <h1 className={styles.h1}>{contacTitle}</h1>
                             <p className={styles.p}>
                                {contacttext1}
@@ -74,76 +77,115 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                             <p className={styles.p}>
                             {contacttext3}
                             </p>
-                        </div>
+                        </div> */}
                         <form
                             className={styles.form}
                             onSubmit={handleSubmit(onSubmit)}
                         >
+                             <div className={styles.head}>
+
+                            <h3 className={styles.formTitle}>{contacTitle}</h3>
+                            <p className={styles.formDescr}>{contacttext1}</p>
+                            </div>
+                              <div className={styles.items}>
+                             <div className={styles.itemsSide}>
                             <div className={styles.item}>
-                                <label className={styles.label} htmlFor="name">
+                                {/* <label className={styles.label} htmlFor="name">
                                   {name} <span>{(require)}</span>
-                                </label>
+                                </label> */}
                                 <input
+                                    placeholder={name}
                                     type="text"
                                     id="name"
                                     {...register("name", { required: true })}
                                 />
                                 {errors.name && (
-                                    <span style={{ color: "red" }}>
+                                   <span style={{ color: "red", paddingTop:"5px" }}>
                                        {error}
                                     </span>
                                 )}
                             </div>
                             <div className={styles.item}>
-                                <label className={styles.label} htmlFor="email">
+                                {/* <label className={styles.label} htmlFor="email">
                                    {email} <span>{(require)}</span>
-                                </label>
+                                </label> */}
                                 <input
+                                    placeholder={email}
                                     type="email"
                                     id="email"
                                     {...register("email", { required: true })}
                                 />
                                 {errors.email && (
-                                    <span style={{ color: "red" }}>
+                                   <span style={{ color: "red", paddingTop:"5px" }}>
                                        {error}
                                     </span>
                                 )}
                             </div>
+                            </div>
+                            <div className={styles.itemsSide}>
                             <div className={styles.item}>
-                                <label className={styles.label} htmlFor="phone">
+                                {/* <label className={styles.label} htmlFor="phone">
                                   {phone}  <span>{(require)}</span>
-                                </label>
+                                </label> */}
                                 <input
+                                   placeholder={phone}
                                     type="phone"
                                     id="phone"
                                     {...register("phone", { required: true })}
                                 />
                                 {errors.phone && (
-                                    <span style={{ color: "red" }}>
+                                   <span style={{ color: "red", paddingTop:"5px" }}>
                                        {error}
                                     </span>
                                 )}
                             </div>
                             <div className={styles.item}>
-                                <label
+                                {/* <label
                                     className={styles.label}
                                     htmlFor="letter"
                                 >
                                    {letter}<span>{(require)}</span>
-                                </label>
-                                <textarea
-                                    className={styles.textarea}
-                                    rows="4"
-                                    cols="50"
-                                    type="text"
-                                    id="letter"
-                                    {...register("letter", { required: true })}
-                                />
-                                {errors.letter && (
-                                    <span style={{ color: "red" }}>
-                                       {error}
-                                    </span>
-                                )}
+                                </label> */}
+                                <select
+  className={styles.select}
+  id="region"
+  {...register("region", { required: true })}
+>
+<option value="">{region}</option>
+  <option value={region1}>{region1}</option>
+  <option value={region2}>{region2}</option>
+  <option value={region3}>{region3}</option>
+  <option value={region4}>{region4}</option>
+  <option value={region5}>{region5}</option>
+  <option value={region6}>{region6}</option>
+  <option value={region7}>{region7}</option>
+  <option value={region8}>{region8}</option>
+  <option value={region9}>{region9}</option>
+  <option value={region10}>{region10}</option>
+  <option value={region11}>{region11}</option>
+  <option value={region12}>{region12}</option>
+  <option value={region13}>{region13}</option>
+  <option value={region14}>{region14}</option>
+  <option value={region15}>{region15}</option>
+  <option value={region16}>{region16}</option>
+  <option value={region17}>{region17}</option>
+  <option value={region18}>{region18}</option>
+  <option value={region19}>{region19}</option>
+  <option value={region20}>{region20}</option>
+  <option value={region21}>{region21}</option>
+  <option value={region22}>{region22}</option>
+  <option value={region23}>{region23}</option>
+  <option value={region24}>{region24}</option>
+  <option value={region25}>{region25}</option>
+  
+</select>
+{errors.region && (
+  <span style={{ color: "red", paddingTop:"5px" }}>
+    {error}
+  </span>
+)}
+                            </div>
+                            </div>
                             </div>
                             <button className={styles.button} type="submit">
                                {submit}

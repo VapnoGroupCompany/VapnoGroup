@@ -1,0 +1,12 @@
+.slickSlide{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  .galleryItem{
+    width: 100%;
+  }

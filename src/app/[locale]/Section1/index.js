@@ -16,15 +16,16 @@ export default function Section1({button,s1title,s1text}) {
             <h1 className={styles.h1}>
             {s1title}
             </h1>
-            <h2 className={styles.mainText}>
-                {s1text}
-            </h2>
-            <Link className={styles.link} href={`/${locale}/about`}>
-                <button className={styles.buttonBlack}>
+            <p className={styles.mainText}>
+            {s1text}
+            </p>
+            
+        </div>
+        <Link className={styles.link} href={`/${locale}/projects`}>
+                <button className={styles.button}>
                   {button}
                 </button>
             </Link>
-        </div>
     </div>
             
            

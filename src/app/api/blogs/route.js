@@ -6,10 +6,10 @@ const botToken ="6752050226:AAH21pNH8Jqip3hmomx52IyrMab4czhTCKY";
 const bot = new TelegramBot(botToken);
 
 export async function POST(req, res) {
-//   const chatId = process.env.TELEGRAM_CHAT_ID;
+//const chatId = process.env.TELEGRAM_CHAT_ID;
   const chatId = "483108480"
-  const { name, email, phone, letter } = await req.json();
-  const telegramMessage = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${letter}`;
+  const { name, email, phone, region } = await req.json();
+  const telegramMessage = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nRegion: ${region}`;
 
   try {
     await bot.sendMessage(chatId, telegramMessage);

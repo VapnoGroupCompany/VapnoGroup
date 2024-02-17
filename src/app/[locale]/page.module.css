@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 .main {
   font-family: Barlow;
   letter-spacing: 2px;
@@ -8,16 +8,18 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
-  padding-bottom: 3em;
+  /* padding-bottom: 3em; */
+}
+.download{
+  color: black;
 }
 
 .ourTitle{
   color: white;
   text-align: center;
-  margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 2em;
   font-size: 2em;
@@ -62,15 +64,6 @@
   color: rgb(184, 184, 184);
 }
 
-.section4{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 100vh;
-  padding-bottom: 3em;
-}
 .ourFavorsContainer{
    display: flex;
    align-items: center;
@@ -105,6 +98,9 @@
   border: 1px white solid;
 }
 @media(max-width:1300px){
+  .h1m{
+    padding-left: 1.7em;
+  }
   .favors{
     gap: 1em;
   }
@@ -113,11 +109,11 @@
 }
 }
 @media(max-width:1000px){
-  .section4{
+  /* .section4{
     padding-top: 3em;
     padding-bottom: 3em;
     height: 100%;
-  }
+  } */
 .ourFavorsContainer{
   flex-direction: column;
   max-width: 600px;
@@ -129,11 +125,11 @@
 }
 
 @media(max-width:650px){
-  .section4{
+  /* .section4{
     padding-top: 5em;
     padding-bottom: 5em;
     height: 100%;
-  }
+  } */
 .favorImg{
   width: 100%;
   height: auto;
@@ -160,3 +156,6 @@
     padding-top: 7em;
   }
 }
+
+
+

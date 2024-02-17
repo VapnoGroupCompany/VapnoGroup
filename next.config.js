@@ -4,7 +4,7 @@ const nextConfig = {
         return [
           {
             source: '/',
-            destination: '/de', // можна змінити на іншу мову, якщо потрібно
+            destination: '/uk', // можна змінити на іншу мову, якщо потрібно
             permanent: true,
           },
         ];

@@ -27,18 +27,20 @@ export default function Paralaximage({title,button}) {
     };
 
     return (
-        
            
             <div className={styles.parallaxContainer}>
                 <div style={parallaxStyle} className={styles.section1}></div>
                 <div className={styles.slogan}>
-                    <h2 className={styles.title}>
-                        Schlusselfertiges <br></br>Haus
-                    </h2>
+                
+                <div className={styles.sloganInner}>
+                    {/* <h2 className={styles.title}>
+                     Vapno Group
+                    </h2> */}
                     <p className={styles.subTitle}>{title}</p>
                     <Link className={styles.link} href={`/${locale}/contact`}>
                         <button className={styles.button}>{button}</button>
                     </Link>
+                    </div>
                 </div>
             </div>
             

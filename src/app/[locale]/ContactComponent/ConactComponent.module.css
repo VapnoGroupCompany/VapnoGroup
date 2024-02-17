@@ -1,5 +1,5 @@
 .wrapper{
-    background-color: white;
+    background: rgb(0, 31, 66);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,66 +15,46 @@
     height: 350px;
     width: 1200px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 .button{
+    font-size: 1.1rem;
     cursor: pointer;
-    color: #000;
+    color: #ffffff;
     background-color: transparent;
-    border: 1.5px solid black;
-    padding: 20px 30px 20px 30px;
-    border-radius: 30px;
+    border: 2px solid rgb(0, 35, 85);
+    background-color:rgb(0, 35, 85);
+    padding: 15px 50px 15px 50px;
     outline: none; 
     box-shadow: none;
 }
 .button:hover{
     outline: none;
     box-shadow: none;
-    color: #ffffff;
-    background-color: black;
-}
-   
-/* @media(max-width:1130px){
-    .content{
-        display: flex;
-        align-items: center;
-        gap: 100px;
-       
-    }
-} */
-/* @media(max-width:1000px){
-    .content{
-        flex-direction: column-reverse;
-        gap: 0px;
-    }
-    
-} */
-.contWrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(96, 96, 96);
-}
-.linkSocial img {
-    filter: brightness(0) 
-}
-.contWrapper a:hover{
-    color: blue;
-}
-.greyBlock{
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 550px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
 }
 .h1{
-    font-size: 3em;
+    font-size: 2.7rem;
     text-align: left;
     color: rgb(0, 0, 0);
-   
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.formTitle{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.formDescr{
+    font-size: 1.5rem;
+    color: rgb(159, 159, 159);
 }
 .p{
     font-size: 1.1em;
@@ -91,36 +71,53 @@
     display: flex;
     flex-direction: column
 }
-
 .form {
-    width: 550px;
+    padding: 3em;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:3em;
     align-items: center;
     justify-content: center;
     padding-bottom:100px;
 }
-.textarea{
-    width: 550px;
-    height:100px;
-    color:rgb(0, 0, 0);
-    font-size:17px;
-    background-color:rgb(255, 255, 255);
-    border: 1.5px solid rgb(128, 128, 128);
-    padding-left: 5px;
-
+.items{
+    display: flex;
 }
-.item input {
-    width: 550px;
+.itemsSide{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.item input,.select {
+    width: 350px;
     height:50px;
     color:rgb(0, 0, 0);
     font-size:17px;
     background-color:rgb(255, 255, 255);
-    border: 1.5px solid rgb(128, 128, 128);
+    border: 2px solid rgb(0, 54, 115);;
     padding-left: 5px;
 }
-
+.item input::placeholder{
+    color: #000;
+}
+@media(max-width:1100px){
+    .items{
+       flex-direction: column;
+       gap: 1.5em;
+    }
+    .item input,.select {
+        width: 500px;
+}
+}
+@media(max-width:820px){
+.form{
+    width: 90%;
+}
+}
 .item{
     display:flex;
     flex-direction:column;
@@ -135,17 +132,16 @@
 .item label span{
     color: grey;
 }
-
 @media(max-width:1245px){
     .content{
         width: 1100px;
         gap: 3em;
     }
 }
-
 @media(max-width:1150px){
     .content{
         margin-top: 5em;
+        margin-bottom: 5em;
         height: 100%;
         flex-direction: column;
         align-items: center;
@@ -158,16 +154,32 @@
     }
 }
 @media(max-width:600px){
-    .form {
-        width: 400px;
+    .head{
+        align-items: flex-start;
     }
-    .textarea{
-        width: 400px;
+    .form {
+        padding: 2em;
+    }
+    .formTitle{
+        font-size: 1.8rem;
+        text-align: left;
+        color: rgb(0, 0, 0);
+    }
+    .formDescr{
+        font-size: 1.2rem;
+        color: rgb(159, 159, 159);
+    }
+    .h1{
+        font-size: 2.2rem;
+        text-align: left;
+        color: rgb(0, 0, 0);
+    }
+    .select{
+        width: 350px;
     
     }
     .item input {
-        width: 400px;
-       
+        width: 350px;
     }
     .greyBlock{
         height: 350px;
@@ -182,18 +194,12 @@
         font-size: 1em;     
 }
 }
-
 @media(max-width:430px){
-    .form {
-        width: 320px;
+    .form{
+        width: 95%;
     }
-    .textarea{
-        width: 320px;
-    
-    }
-    .item input {
-        width: 320px;
-       
+    .item input,.select {
+        width: 300px; 
     }
     .greyBlock{
         height: 400px;
@@ -201,12 +207,17 @@
     }
 }
 .loaderContainer{
+    position: fixed;
     width: 100%;
-    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10000000000000000000000000000000;
 }
 
 
