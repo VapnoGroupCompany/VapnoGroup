@@ -29,7 +29,7 @@
     align-items: center;
     position: fixed;
     /* background: linear-gradient(rgb(0, 0, 18),rgba(14, 0, 67, 0.877)); */
-    background: rgb(0, 31, 66);
+    background: rgb(0, 49, 105);
     height: 9vh;
     width: 100%;
 
@@ -160,7 +160,7 @@
     z-index: 50;
     overflow-y: auto;
     padding: 5em 5em;
-    background: rgb(0, 31, 66);
+    background: rgb(0, 49, 105);
     animation: burgerAnimation 0.7s;
   }
   .menu ul {

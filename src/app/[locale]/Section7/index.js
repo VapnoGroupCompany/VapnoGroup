@@ -9,11 +9,7 @@ export default function Section7(
   { s7title,s7titleItem1,s7titleItem2,s7titleItem3,s7textItem1,s7textItem2,s7textItem3}
     ) {
     const locale = useLocale();
-    
-
-    return (
-        
-           
+    return ( 
         <div className={styles.section7}>
         <div className={styles.section7Container}>
         <h2 className={styles.h2s7}>{s7title}</h2>
@@ -46,7 +42,6 @@ export default function Section7(
   {s7textItem2}
   </p>
   </div>
- 
         </div>
         <div className={styles.section7Item}>
         <Image
@@ -63,7 +58,6 @@ export default function Section7(
   </p>
   </div>
         </div>
-        
         </div>
         </div>
             

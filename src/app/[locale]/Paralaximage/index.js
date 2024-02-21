@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
+import { motion } from 'framer-motion';
 // import { useTranslation } from "next-i18next";
 export default function Paralaximage({title,button}) {
     const locale = useLocale();
@@ -36,7 +37,12 @@ export default function Paralaximage({title,button}) {
                     {/* <h2 className={styles.title}>
                      Vapno Group
                     </h2> */}
-                    <p className={styles.subTitle}>{title}</p>
+                      <motion.div
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+                    <p className={styles.subTitle}>{title}</p></motion.div>
                     <Link className={styles.link} href={`/${locale}/contact`}>
                         <button className={styles.button}>{button}</button>
                     </Link>

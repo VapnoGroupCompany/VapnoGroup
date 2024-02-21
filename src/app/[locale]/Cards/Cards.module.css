@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: rgb(0, 31, 66);
+    background: rgb(0, 49, 105);
     color: rgb(255, 255, 255);
 }
 .content{
@@ -89,7 +89,7 @@
     content: ""; /* Додаємо вміст для псевдоелемента */
     width: 0.8em;
     height: 0.8em;
-    background: rgb(0, 48, 103);
+    background: rgb(0, 59, 126);
     position: absolute; /* Позиціонуємо псевдоелемент відносно батьківського елемента */
     top: 50%; /* Позиціонуємо відносно верхньої межі батьківського елемента */
     left: 0; /* Позиціонуємо відносно лівої межі батьківського елемента */
@@ -147,7 +147,7 @@
     padding: 20px 60px 20px 60px;
     border: none;
     color: white;
-    background: rgb(0, 48, 103);
+    background: rgb(0, 59, 126);
   }
    @media(max-width:800px){
     .goodImg{
