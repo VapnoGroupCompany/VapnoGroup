@@ -114,6 +114,7 @@
     position: relative;
     font-size: 1.8rem;
     padding-bottom: 0.5em;
+    color: white;
     /* border-bottom: 3px solid linear-gradient(to right, red, black); */
 }
 .titleColums::after {

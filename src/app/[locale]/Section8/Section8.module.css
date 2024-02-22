@@ -63,8 +63,8 @@
 }
 @media(max-width:600px){
   .slogan{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .sloganTitle{
   font-size: 1.7rem;
@@ -74,8 +74,8 @@
 @media(max-width:450px){
   .slogan{
     width: 320px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .sloganTitle{
   font-size: 1.7rem;
@@ -94,7 +94,7 @@
   color: rgb(0, 54, 115);
   
 }
-.sloganButton span {
+.sloganButton img {
   animation: swing 1s infinite;
 }
 @keyframes swing {

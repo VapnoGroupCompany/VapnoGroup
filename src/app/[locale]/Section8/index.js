@@ -23,7 +23,14 @@ export default function Section8(
           
           <Link className={styles.sloganBottom}  href={`/${locale}/projects`}>
               <span>{s8descr1}</span>
-              <div className={styles.sloganButton}><span>→</span></div>
+              <div className={styles.sloganButton}><Image
+        className={styles.imgSection7}
+    src="/arrow.png"
+    alt="Description of image"
+    width={20}
+    height={20}
+    />
+    </div>
               </Link>
           </div>
          
@@ -31,7 +38,13 @@ export default function Section8(
           <h3 className={styles.sloganTitle}>{s8title2}</h3>
           <a  className={styles.sloganBottom} href="/certificate.pdf" download>
               <span>{s8descr2}</span>
-              <div className={styles.sloganButton}><span>→</span></div>
+              <div className={styles.sloganButton}> <Image
+        className={styles.imgSection7}
+    src="/arrow.png"
+    alt="Description of image"
+    width={20}
+    height={20}
+  /></div>
               </a>               
           </div>
       </div>
