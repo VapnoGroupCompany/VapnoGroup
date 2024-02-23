@@ -20,8 +20,8 @@
     box-shadow: none;
   }
   .header{
+    z-index: 12;
     font-family: Barlow;
-    z-index: 2;
     display: flex;
     padding-left: 2em;
     padding-right: 2em;
@@ -158,7 +158,7 @@
     height: 100vh;
     width: 100%;
     z-index: 50;
-    overflow-y: auto;
+    overflow: hidden;
     padding: 5em 5em;
     background: rgb(0, 49, 105);
     animation: burgerAnimation 0.7s;
