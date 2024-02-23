@@ -28,6 +28,7 @@ export default function Home({
             <Header home={t("home")}
                     projects={t("projects")}
                     about={t("about")}
+                    prices={t("prices")}
                     contact={t("contact")} />
         <Paralaximage title={t("title") } button={t("button")}/>
            <Section1 button={t("button")}

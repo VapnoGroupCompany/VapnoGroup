@@ -1,13 +1,14 @@
 import { NextResponse } from 'next/server';
 import TelegramBot from 'node-telegram-bot-api';
-
+import dotenv from 'dotenv'; 
+dotenv.config();
 // const botToken = process.env.TELEGRAM_BOT_TOKEN;
-const botToken ="6752050226:AAH21pNH8Jqip3hmomx52IyrMab4czhTCKY";
+const botToken =  process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(botToken);
 
 export async function POST(req, res) {
 //const chatId = process.env.TELEGRAM_CHAT_ID;
-  const chatId = "483108480"
+  const chatId = process.env.TELEGRAM_CHAT_ID;
   const { name, email, phone, region } = await req.json();
   const telegramMessage = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nRegion: ${region}`;
 

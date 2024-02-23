@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
-export default function Header({home,about,projects,contact}) {
+export default function Header({home,about,projects,contact,prices}) {
   const locale = useLocale();
   const pathname = usePathname()
   let  [open,setOpen] = React.useState(true);
@@ -39,8 +39,9 @@ export default function Header({home,about,projects,contact}) {
                     {/* <Link  className={styles.link}   href={`/${locale}/about`}> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>{about}</li></Link> */}
                     <Link  className={styles.link} href={`/${locale}/contact`}><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>{contact}</li></Link>
                     {/* <div onClick={handleChangeLanguage} className={styles.changeLanguage}>| {selectlang ?  "UK" : "DE"} | </div> */}
-
-
+                    <a  className={styles.link} href="/prices.pdf" download>
+                    <li onClick={() => setActive(4)}  className={ (active === 4) ? styles.menuActive  : styles.menuItem }>{prices}</li>
+                      </a>
                  { pathname.includes("uk") ? <Link className={styles.lang}  href={`/en`}>[ EN ]</Link> : 
                     <Link className={styles.lang}  href={`/uk`}>[ UK ]</Link> 
                   }

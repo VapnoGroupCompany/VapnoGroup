@@ -17,7 +17,10 @@ function Contacts({
              home={t("home")}
              projects={t("projects")}
              about={t("about")}
-             contact={t("contact")}  />
+             contact={t("contact")}  
+             prices={t("prices")}
+             />
+             
             <ContactComponent
             contacTitle={t("contacTitle")}
             contacttext1={t("contacttext1")}

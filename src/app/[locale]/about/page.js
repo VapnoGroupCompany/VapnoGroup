@@ -15,6 +15,7 @@ function About({
             projects={t("projects")}
             about={t("about")}
             contact={t("contact")} 
+            prices={t("prices")}
             />
             <div className={styles.wrapper}>
                 <div className={styles.content}>

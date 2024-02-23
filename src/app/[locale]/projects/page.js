@@ -20,6 +20,7 @@ function Projects({ params: { locale } }) {
         t("good1ListItem2"),
         t("good1ListItem3"),
         t("good1ListItem4"),
+        
       ],
       imageSrc: '/i2.png',
       description: t("good1DetailDescr"),
@@ -78,6 +79,7 @@ function Projects({ params: { locale } }) {
         projects={t('projects')}
         about={t('about')}
         contact={t('contact')}
+        prices={t("prices")}
       />
       <Cards
       // good1Title={t("footerTitle1")}
