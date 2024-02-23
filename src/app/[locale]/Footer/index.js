@@ -92,7 +92,7 @@ button}) {
             <p className={styles.ItemFooterTitle}>
             {subTitle21}
             </p>
-            <a href="https://maps.google.com" className={styles.itemFooterDescr}>{subTitle22}</a>
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%98%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F+%D0%B3%D1%80%D1%83%D0%BF%D0%B0+%C2%ABVapno+Group%C2%BB+(%D0%A4%D0%9E%D0%9F+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D1%8E%D0%BA+%D0%A0.%D0%92.)+%7C/@48.3596645,25.4076787,17z/data=!4m12!1m5!3m4!2zNDjCsDIxJzM0LjgiTiAyNcKwMjQnMzYuOSJF!8m2!3d48.3596645!4d25.4102536!3m5!1s0x4736b1b42fd8c989:0x281fab21cf96340b!8m2!3d48.3589722!4d25.4099167!16s%2Fg%2F11j01_hdrd?entry=ttu" className={styles.itemFooterDescr}>{subTitle22}</a>
             </div>
             <div className={styles.ItemFooter}> 
             <p className={styles.ItemFooterTitle}>

@@ -61,14 +61,14 @@
 .sloganTitle{
   white-space: nowrap;
   font-size: 2rem;
-  color: rgb(0, 54, 115)
+  color: rgb(0, 73, 156)
 }
 .sloganBottom{
   white-space: nowrap;
   display: flex;
   gap: 3em;
   align-items: center;
-  color: rgb(0, 54, 115)
+  color: rgb(0, 73, 156)
 }
 @media(max-width:600px){
   .slogan{

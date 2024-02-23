@@ -8,7 +8,7 @@
     width: 100%;
     height: 100%;
     /* background: linear-gradient(rgb(0, 50, 108),rgb(0, 50, 108)); */
-    background: rgb(0, 49, 105);
+    background: rgb(1, 63, 135);
     gap: 5em;
   }
   .h1m{
@@ -69,7 +69,7 @@
   }
   .TitleSection4{
     font-size: 2.2rem;
-    color: rgb(0, 31, 66);
+    color: rgb(0, 73, 156)
   }
   .TextSection4{
     font-size: 1.5rem;
@@ -87,7 +87,6 @@
     }
     .TitleSection4{
       font-size: 1.8rem;
-      color: rgb(0, 31, 66);
     }
     .h1m{
       padding-left: 0.5em;
