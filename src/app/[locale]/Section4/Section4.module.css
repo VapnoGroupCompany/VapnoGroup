@@ -8,8 +8,11 @@
     width: 100%;
     height: 100%;
     /* background: linear-gradient(rgb(0, 50, 108),rgb(0, 50, 108)); */
-    background: rgb(1, 63, 135);
+    background: rgb(0, 95, 203);
     gap: 5em;
+  }
+  .icon{
+    filter: brightness(1.4);
   }
   .h1m{
     padding-left: 1.7em;
@@ -69,7 +72,7 @@
   }
   .TitleSection4{
     font-size: 2.2rem;
-    color: rgb(0, 73, 156)
+    color: rgb(0, 92, 198)
   }
   .TextSection4{
     font-size: 1.5rem;

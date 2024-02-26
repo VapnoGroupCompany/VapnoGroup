@@ -42,8 +42,8 @@
   cursor: pointer;
   font-size: 16px;
   padding: 20px 60px 20px 60px;;
-  border: 1px solid rgb(1, 63, 135);
-  background: rgb(1, 63, 135);
+  border: 1px solid rgb(0, 95, 203);
+  background: rgb(0, 95, 203);
   color: rgb(255, 255, 255);
 }
 .button:hover{

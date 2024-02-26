@@ -27,7 +27,7 @@
     justify-content: center;
     flex-direction: column;
     /* padding: 5em; */
-    background: linear-gradient(rgba(0, 0, 110, 0.596),rgba(0, 0, 0, 0.903));
+    background: linear-gradient(rgba(0, 0, 159, 0.484),rgba(0, 0, 0, 0.823));
     gap:2em;
   }
   .sloganInner{

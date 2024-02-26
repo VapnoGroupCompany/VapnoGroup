@@ -61,14 +61,14 @@
 .sloganTitle{
   white-space: nowrap;
   font-size: 2rem;
-  color: rgb(0, 73, 156)
+  color: rgb(0, 0, 0)
 }
 .sloganBottom{
   white-space: nowrap;
   display: flex;
   gap: 3em;
   align-items: center;
-  color: rgb(0, 73, 156)
+  color: rgb(0, 0, 0)
 }
 @media(max-width:600px){
   .slogan{
@@ -77,7 +77,6 @@
 }
 .sloganTitle{
   font-size: 1.7rem;
-  color: rgb(0, 54, 115)
 }
 }
 @media(max-width:450px){
@@ -88,14 +87,12 @@
 }
 .sloganTitle{
   font-size: 1.7rem;
-  color: rgb(0, 54, 115)
 }
 .sloganBottom{
   white-space: nowrap;
   display: flex;
   gap: 2em;
   align-items: center;
-  color: rgb(0, 54, 115)
 }
 }
 .sloganButton{
@@ -105,9 +102,9 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px  rgb(0, 54, 115) solid;
+  border: 2px  black solid;
   /* background: rgb(0, 31, 66); */
-  color: rgb(0, 54, 115);
+  color: black
   
 }
 .sloganButton img {
