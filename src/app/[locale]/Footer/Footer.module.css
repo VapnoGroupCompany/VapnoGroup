@@ -30,7 +30,7 @@
     filter:invert(0.5)
 }
 .fd{   
-    color: #808080;
+    color: #ffffff;
 }
 
     
@@ -97,7 +97,7 @@
     font-family: Ysabeau SC;
 }
 .footerDescr{
-    color: rgb(193, 193, 193);
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     line-height: 1.4em;
 }
@@ -129,13 +129,13 @@
 .itemFooterDescr,.ItemFooterDescr{
     padding-top: 0.5em;
     font-size: 1.3rem;
-    color: rgb(142, 142, 142);
+    color: rgb(255, 255, 255);
 }
 .itemFooterDescr{
     display: block; /* Робимо елементи <a> блоковими, щоб вони займали всю доступну ширину */
     padding-top: 0.3em; /* Додаємо внутрішній відступ *//* Додаємо зовнішній відступ знизу */
     text-decoration: none; /* Забираємо підкреслення */
-    color: rgb(147, 147, 147);
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 1120px) {

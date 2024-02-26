@@ -12,7 +12,7 @@
     gap: 5em;
   }
   .icon{
-    filter: brightness(1.4);
+    filter:grayscale(100%);
   }
   .h1m{
     padding-left: 1.7em;
@@ -60,7 +60,7 @@
     padding: 3em;
     width: 100%;
     background: white;
-    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 10px 0px rgb(255, 255, 255); */
     color: rgb(12, 12, 12);
     gap: 2em;
   }
@@ -72,7 +72,7 @@
   }
   .TitleSection4{
     font-size: 2.2rem;
-    color: rgb(0, 92, 198)
+    color: rgb(43, 43, 43)
   }
   .TextSection4{
     font-size: 1.5rem;
