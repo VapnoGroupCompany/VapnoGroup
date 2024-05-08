@@ -13,6 +13,84 @@ function Projects({ params: { locale } }) {
   const t = useTranslations('Index');
   const projectsData = [
     {
+      title: t("good5Title"),
+      subTitle: t("good5Descr"),
+      applicationAreas: [
+        t("good5ListItem1"),
+        t("good5ListItem2"),
+        t("good5ListItem3"),
+        t("good5ListItem4"),
+      ],
+      imageSrc: '/i4.png',
+      description: t("good5DetailDescr"),
+      characteristics: [
+        { name: t("country"), value: t("good5countryValue"), },
+        { name: t("producer"), value: t("good5producerValue")},
+        { name: t("weight"), value: t("good5weightValue") },
+        { name: t("wrap"), value: t("good5wrapValue") },
+        { name:t("countbags"), value: t("good5countbagsValue") },
+      ],
+    },
+    {
+      title: t("good51Title"),
+      subTitle: t("good51Descr"),
+      applicationAreas: [
+        t("good51ListItem1"),
+        t("good51ListItem2"),
+        t("good51ListItem3"),
+        t("good51ListItem4"),
+      ],
+      imageSrc: '/i7.png',
+      description: t("good51DetailDescr"),
+      characteristics: [
+        { name: t("country"), value: t("good51countryValue"), },
+        { name: t("producer"), value: t("good51producerValue")},
+        { name: t("weight"), value: t("good51weightValue") },
+        { name: t("wrap"), value: t("good51wrapValue") },
+        { name:t("countbags"), value: t("good51countbagsValue") },
+      ],
+    },
+    
+    {
+      title: t("good52Title"),
+      subTitle: t("good52Descr"),
+      applicationAreas: [
+        t("good52ListItem1"),
+        t("good52ListItem2"),
+        t("good52ListItem3"),
+        t("good52ListItem4"),
+      ],
+      imageSrc: '/i8.png',
+      description: t("good52DetailDescr"),
+      characteristics: [
+        { name: t("country"), value: t("good52countryValue"), },
+        { name: t("producer"), value: t("good52producerValue")},
+        { name: t("weight"), value: t("good52weightValue") },
+        { name: t("wrap"), value: t("good52wrapValue") },
+        { name:t("countbags"), value: t("good52countbagsValue") },
+      ],
+    },
+    {
+      title: t("good2Title"),
+      subTitle: t("good2Descr"),
+      applicationAreas: [
+        t("good2ListItem1"),
+        t("good2ListItem2"),
+        t("good2ListItem3"),
+        t("good2ListItem4"),
+      ],
+      imageSrc: '/i3.png',
+      description: t("good2DetailDescr"),
+      characteristics: [
+        { name: t("country"), value: t("good2countryValue"), },
+        { name: t("producer"), value: t("good2producerValue")},
+        { name: t("weight"), value: t("good2weightValue") },
+        { name: t("wrap"), value: t("good2wrapValue") },
+        { name:t("countbags"), value: t("good2countbagsValue") },
+      ],
+    },
+    
+    {
       title: t("good1Title"),
       subTitle: t("good1Descr"),
       applicationAreas: [
@@ -53,25 +131,7 @@ function Projects({ params: { locale } }) {
         { name:t("countbags"), value: t("good11countbagsValue") },
       ],
     },
-    {
-      title: t("good2Title"),
-      subTitle: t("good2Descr"),
-      applicationAreas: [
-        t("good2ListItem1"),
-        t("good2ListItem2"),
-        t("good2ListItem3"),
-        t("good2ListItem4"),
-      ],
-      imageSrc: '/i3.png',
-      description: t("good2DetailDescr"),
-      characteristics: [
-        { name: t("country"), value: t("good2countryValue"), },
-        { name: t("producer"), value: t("good2producerValue")},
-        { name: t("weight"), value: t("good2weightValue") },
-        { name: t("wrap"), value: t("good2wrapValue") },
-        { name:t("countbags"), value: t("good2countbagsValue") },
-      ],
-    },
+    
     {
       title: t("good3Title"),
       subTitle: t("good3Descr"),
@@ -131,66 +191,10 @@ function Projects({ params: { locale } }) {
       ],
     },
 
-    {
-      title: t("good5Title"),
-      subTitle: t("good5Descr"),
-      applicationAreas: [
-        t("good5ListItem1"),
-        t("good5ListItem2"),
-        t("good5ListItem3"),
-        t("good5ListItem4"),
-      ],
-      imageSrc: '/i4.png',
-      description: t("good5DetailDescr"),
-      characteristics: [
-        { name: t("country"), value: t("good5countryValue"), },
-        { name: t("producer"), value: t("good5producerValue")},
-        { name: t("weight"), value: t("good5weightValue") },
-        { name: t("wrap"), value: t("good5wrapValue") },
-        { name:t("countbags"), value: t("good5countbagsValue") },
-      ],
-    },
-
-    {
-      title: t("good51Title"),
-      subTitle: t("good51Descr"),
-      applicationAreas: [
-        t("good51ListItem1"),
-        t("good51ListItem2"),
-        t("good51ListItem3"),
-        t("good51ListItem4"),
-      ],
-      imageSrc: '/i7.png',
-      description: t("good51DetailDescr"),
-      characteristics: [
-        { name: t("country"), value: t("good51countryValue"), },
-        { name: t("producer"), value: t("good51producerValue")},
-        { name: t("weight"), value: t("good51weightValue") },
-        { name: t("wrap"), value: t("good51wrapValue") },
-        { name:t("countbags"), value: t("good51countbagsValue") },
-      ],
-    },
-
-    {
-      title: t("good52Title"),
-      subTitle: t("good52Descr"),
-      applicationAreas: [
-        t("good52ListItem1"),
-        t("good52ListItem2"),
-        t("good52ListItem3"),
-        t("good52ListItem4"),
-      ],
-      imageSrc: '/i8.png',
-      description: t("good52DetailDescr"),
-      characteristics: [
-        { name: t("country"), value: t("good52countryValue"), },
-        { name: t("producer"), value: t("good52producerValue")},
-        { name: t("weight"), value: t("good52weightValue") },
-        { name: t("wrap"), value: t("good52wrapValue") },
-        { name:t("countbags"), value: t("good52countbagsValue") },
-      ],
-    },
     
+
+    
+
   ];
   
   return (
