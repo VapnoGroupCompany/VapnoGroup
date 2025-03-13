@@ -39,7 +39,7 @@ export default function Header({home,about,projects,contact,prices}) {
                     {/* <Link  className={styles.link}   href={`/${locale}/about`}> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>{about}</li></Link> */}
                     <Link  className={styles.link} href={`/${locale}/contact`}><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>{contact}</li></Link>
                     {/* <div onClick={handleChangeLanguage} className={styles.changeLanguage}>| {selectlang ?  "UK" : "DE"} | </div> */}
-                    <a  className={styles.link} href="/newPrices.pdf" download>
+                    <a  className={styles.link} href="/VapnoGroupPrice.pdf" download>
                     <li onClick={() => setActive(4)}  className={ (active === 4) ? styles.menuActive  : styles.menuItem }>{prices}</li>
                       </a>
                  { pathname.includes("uk") ? <Link className={styles.lang}  href={`/en`}>[ EN ]</Link> : 
